@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "home": {
+      "metaTitle": "My App",
+      "metaDescription": "A Next.js starter with i18n"
+    }
+  },
+  "home": {
+    "title": "Welcome",
+    "description": "A simple Next.js starter with i18n support, Tailwind CSS and shadcn/ui."
+  }
+}

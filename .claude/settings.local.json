@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(pnpm type-check:*)",
+      "Bash(pnpm lint:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "WebFetch(domain:www.shadcnblocks.com)",
+      "mcp__chrome-devtools__click",
+      "mcp__chrome-devtools__list_pages",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__emulate",
+      "mcp__chrome-devtools__take_screenshot",
+      "Bash(bash:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}

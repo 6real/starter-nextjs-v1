@@ -1,0 +1,9 @@
+# Ignore everything at root level
+/*
+
+# Include src directory
+!/src
+
+# Exclude src/components (shadcn/ui pre-generated components)
+src/components/**
+
