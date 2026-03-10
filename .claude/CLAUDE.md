@@ -1,13 +1,22 @@
 # Next.js Starter - Development Guidelines
 
-> Minimal Next.js 15 starter with i18n, Tailwind CSS 4, and shadcn/ui
+> Minimal Next.js 16 starter with i18n, Tailwind CSS 4, and shadcn/ui
+
+## Documentation
+
+Detailed stack documentation is available in `docs/stack/`:
+
+- [`shadcn-ui.md`](../docs/stack/shadcn-ui.md) - Components list, usage, customization
+- [`tailwind-css.md`](../docs/stack/tailwind-css.md) - Theme, CSS variables, utilities
+- [`forms.md`](../docs/stack/forms.md) - react-hook-form + zod patterns
+- [`i18n.md`](../docs/stack/i18n.md) - Translation system, routing, adding locales
 
 ---
 
 ## Stack
 
-- **Framework**: Next.js 15 (App Router)
-- **React**: 19.1.0
+- **Framework**: Next.js 16 (App Router)
+- **React**: 19.2
 - **TypeScript**: 5.x (strict mode)
 - **UI**: shadcn/ui + shadcnblocks
 - **Styling**: Tailwind CSS 4
