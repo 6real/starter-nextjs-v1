@@ -1,11 +1,11 @@
 # Next.js Starter
 
-A minimal Next.js 15 starter template with i18n, Tailwind CSS 4, and shadcn/ui.
+A minimal Next.js 16 starter template with i18n, Tailwind CSS 4, and shadcn/ui.
 
 ## Stack
 
-- **Framework**: Next.js 15 (App Router, Turbopack)
-- **React**: 19.1.0
+- **Framework**: Next.js 16 (App Router, Turbopack)
+- **React**: 19.2
 - **TypeScript**: 5.x (strict mode)
 - **UI**: shadcn/ui (24 components)
 - **Styling**: Tailwind CSS 4
@@ -31,7 +31,7 @@ src/
 │   └── dictionaries/         # Translation JSON files (fr.json, en.json)
 ├── lib/
 │   └── utils.ts              # cn() utility
-└── middleware.ts              # Locale detection + redirect
+└── proxy.ts                  # Locale detection + redirect (Next.js 16 proxy)
 ```
 
 ## Getting Started
@@ -47,8 +47,8 @@ Open [http://localhost:3000](http://localhost:3000) - you'll be redirected to `/
 
 | Command | Description |
 |---------|-------------|
-| `pnpm dev` | Start dev server (Turbopack) |
-| `pnpm build` | Production build |
+| `pnpm dev` | Start dev server (Turbopack by default) |
+| `pnpm build` | Production build (Turbopack by default) |
 | `pnpm start` | Start production server |
 | `pnpm lint` | Run ESLint |
 | `pnpm lint:fix` | Fix lint issues |
